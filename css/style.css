@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+}
+.navigation {
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, .05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    padding: 10px;
+    z-index: 50;
+    display: flex;
+    background-color: rgb(47, 45, 45);
+    justify-content: space-between;
+}
+
+.btn {
+    justify-content: right;
+}
+.heading {
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.2;
+    color: rgb(189, 184, 184);
+}
+.subheading {
+    font-size: 24px;
+    font-weight: 50;
+    letter-spacing: 1.8px;
+    text-align: center;
+    color: rgb(87, 84, 84);
+}
+.form-label {
+    color: rgb(112, 108, 108);
+}
+.form-text {
+    color: rgb(67, 64, 64);
+}
+.frm {
+    padding: 40px;
+    margin-left: 500px;
+    margin-right: 500px;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.btn-outline-info {
+    color: #f58446;
+    border-color: #f58446;
+}
+.btn-outline-info:hover {
+    color: black;
+    background-color: #f58446;
+    border-color: #f58446;
+}
+.btn-info {
+    color: white;
+    background-color: #f58446;
+    border-color: #f58446;
+}
+.btn-info:hover {
+    transition: 0.2s ease-in-out;
+    color: white;
+    background-color: #c25216;
+    border-color: #c25216;
+}
+.form-control {
+    background-color: rgb(36, 34, 34);
+}
+.justClick {
+    background-color: rgb(47, 45, 45);
+    border: none;
+}

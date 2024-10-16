@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+}
+.navbar {
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, .05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    padding: 10px;
+    z-index: 50;
+    display: flex;
+    background-color: rgb(47, 45, 45);
+    justify-content: space-between;
+}
+.mode {
+    display: flex;
+}
+
+.btn {
+    justify-content: right;
+}
+.nav-tools {
+    display: flex;
+    justify-content: right;
+}
+.space {
+    height: 50px;
+    width: 1000px;
+}
+.heading {
+    text-align: center;
+    font-size: 72px;
+    color: #5e3ca3;
+    font-weight: 600;
+}
+.table-content {
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.table {
+    justify-content: center;
+}
+.second {
+    border: 1px solid rgba(138, 62, 62, 0.805);
+    border-radius: 25px;
+    height: 20px;
+    width: 70px;
+    background-color: rgba(138, 62, 62, 0.805);
+}
+.second p {
+    font-size: 12px;
+    text-align: center;
+    color: rgb(240, 98, 98);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(84, 35, 163);
+}
+.second-change {
+    border: 1px solid rgba(26, 107, 26, 0.987);
+    border-radius: 25px;
+    height: 20px;
+    width: 70px;
+    background-color: rgba(26, 107, 26, 0.987);
+}
+.justClick {
+    background-color: rgb(47, 45, 45);
+    border: none;
+}
