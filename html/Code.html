@@ -3,42 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Code Editor</title>
     <link rel="stylesheet" href="../css/code.css">
+    <title>Code Editor</title>
 </head>
 <body>
     <div class="container">
-        <h1>Online Code Editor</h1>
+        <h1>Code Editor</h1>
         
-        <div class="problem-selector">
-            <label for="problemSelect">Choose a Problem:</label>
-            <select id="problemSelect" onchange="loadProblem()">
-                <option value="">Select a problem</option>
-                <option value="1">Add Two Numbers</option>
-                <option value="2">Multiply Two Numbers</option>
-            </select>
-        </div>
-
-        <div id="problemDetails" style="display: none;">
-            <h2 id="problemTitle"></h2>
-            <p id="problemDescription"></p>
-            <p><strong>Input:</strong> <span id="problemInput"></span></p>
-            <p><strong>Output:</strong> <span id="problemOutput"></span></p>
-            <p><strong>Example:</strong> <pre id="problemExample"></pre></p>
-        </div>
-
-        <select id="language">
-            <option value="cpp">C++</option>
-            <option value="python">Python</option>
+        <!-- Language Selection -->
+        <select id="langSelect">
+            <option value="python3">Python</option>
             <option value="java">Java</option>
+            <option value="c">C</option>
+            <option value="cpp">C++</option>
         </select>
-        <textarea id="codeEditor" placeholder="Write your code here..."></textarea>
-        <button onclick="runCode()">Run</button>
-        <pre id="output"></pre>
+
+        <!-- Problem Selection -->
+        <select id="questionSelect">
+            <option value="A">A</option>
+            <option value="subtraction">Subtraction</option>
+            <option value="multiplication">Multiplication</option>
+            <option value="D">D</option>
+        </select>
+
+        <!-- Code Input -->
+        <textarea id="codeInput" rows="10" placeholder="Write your code here..."></textarea>
+        <button id="runCodeBtn">Run Code</button>
+
+        <!-- Output -->
+        <p id="output"></p>
     </div>
     <script src="../js/code.js"></script>
 </body>
 </html>
+
 <!-- #include <bits/stdc++.h>
 using namespace std;
 int main () {

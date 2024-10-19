@@ -1,0 +1,18 @@
+{
+    "A": {
+        "input": "2 3",
+        "output": "5"
+    },
+    "subtraction": {
+        "input": "5 2",
+        "output": "3"
+    },
+    "multiplication": {
+        "input": "4 3",
+        "output": "12"
+    },
+    "D": {
+        "input": "6 2",
+        "output": "3"
+    }
+}
