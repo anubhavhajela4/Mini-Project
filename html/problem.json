@@ -3,16 +3,42 @@
         "input": "2 3",
         "output": "5"
     },
-    "subtraction": {
+    "B": {
         "input": "5 2",
         "output": "3"
     },
-    "multiplication": {
+    "C": {
         "input": "4 3",
         "output": "12"
     },
     "D": {
         "input": "6 2",
         "output": "3"
+    },
+    "E" : {
+        "input": "5 3 7 2 9",
+        "output": "2 3 5 7 9"
+    },
+    "F" :{
+        "input":"7 1 2 3 4 5 6 7",
+        "output":"7"
+    },
+    "G" :{
+        "input":"7 1 2 3 4 5 6 7",
+        "output":"1"
+    },
+    "H" :{
+        "input":"3 4 5 -3 100 1 89 54 23 20",
+        "output":"0"
+    },
+    "I" : {
+        "input":"3 4",
+        "output":"231"
+    },
+    "J" : {
+        "input":"nitin",
+        "output":"n i t i n"
     }
+
 }
+
